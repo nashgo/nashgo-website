@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nashgo-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        role: nashgo
+    spec:
+      containers:
+        - name: nashgo
+          image: kcmastrpc/nashgo
+          imagePullPolicy: "Always"
+          ports:
+          - containerPort: 80
