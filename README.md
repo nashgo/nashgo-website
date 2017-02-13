@@ -1,3 +1,3 @@
 We've moved!
 
-https://gitlab.nashgo.org/nashgo/website
+https://gitlab.nashgo.org/nashgo/nashgo-website
